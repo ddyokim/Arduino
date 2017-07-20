@@ -9,7 +9,7 @@
  
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "e50cf81a9fe947419d23ad9a726f3198";
+char auth[] = "********************************";
  
 SoftwareSerial SerialBLE(7, 8); // RX, TX
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(5, PIN, NEO_GRB + NEO_KHZ800);
