@@ -22,7 +22,6 @@ void loop() {
     if (btSerial.available()) {
       data_bt = btSerial.read();
       Serial.write(data_bt); //아두이노로 전송
-      Serial.println();
     }
   }
 }
